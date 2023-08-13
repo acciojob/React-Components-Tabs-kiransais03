@@ -10,3 +10,29 @@ button{
     justify-content: center;
     align-items: center;
 }
+
+.tabs {
+    display: flex;
+    flex-direction: column;
+}
+
+.tabs-top {
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+}
+
+.tab {
+    background-color: coral;
+    width: 30%;
+    cursor: pointer;
+    border: 2px solid green;
+}
+
+.viewport {
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+    justify-content: center;
+}
